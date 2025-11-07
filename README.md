@@ -49,18 +49,52 @@ Achieved a balanced, preprocessed dataset with key insights into water quality i
 
 ---
 
-## 🛠️ Tools Used
-- **Languages:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Environment:** Jupyter Notebook
+💧 𝗗𝗮𝘆 𝟯 – 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗦𝗰𝗮𝗹𝗶𝗻𝗴 & 𝗖𝗼𝗿𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀
+𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲
 
----
+Prepare the Water Potability Dataset for modeling by applying feature scaling and performing correlation analysis to uncover relationships between variables.
 
-## 🔗 Connect & Explore
-Check out the detailed notebooks and datasets:  
-👉 [GitHub Repository](https://github.com/devdocx123/EDA_01)
+𝗞𝗲𝘆 𝗦𝘁𝗲𝗽𝘀
 
----
+Applied 𝗦𝘁𝗮𝗻𝗱𝗮𝗿𝗱𝗦𝗰𝗮𝗹𝗲𝗿 to normalize numerical features.
 
-⭐ *Next up – Day 3: Data Preprocessing & Model Building!*  
-#MachineLearning #DataScience #EDA #Python #FeatureEngineering #WaterQuality #IPLData
+Analyzed 𝗰𝗼𝗿𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀 among key parameters like pH, hardness, and solids.
+
+Created 𝗵𝗲𝗮𝘁𝗺𝗮𝗽𝘀 and 𝗽𝗮𝗶𝗿𝗽𝗹𝗼𝘁𝘀 to visualize relationships and detect key patterns.
+
+𝗢𝘂𝘁𝗰𝗼𝗺𝗲
+
+Established a 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝘁 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝘀𝗰𝗮𝗹𝗲 across variables.
+
+Identified 𝗸𝗲𝘆 𝗰𝗼𝗿𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 influencing water potability.
+
+Prepared data for 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝘀𝗲𝗹𝗲𝗰𝘁𝗶𝗼𝗻 and 𝗺𝗼𝗱𝗲𝗹 𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴.
+
+📘 Notebook: - `Day02/EDA02.ipynb`
+- `Day02/water_potability_ds2.csv` ( raw dataset)
+- `Day02/cleaned_dataset_Water-Potability.csv` (cleaned dataset)
+
+- ---
+
+🤖 𝗗𝗮𝘆 𝟰 – 𝗖𝗼𝗺𝗽𝗮𝗿𝗶𝗻𝗴 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗦𝗰𝗮𝗹𝗲𝗿𝘀
+𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲
+
+Understand how different scaling methods — StandardScaler, MinMaxScaler, and RobustScaler — affect data transformation and model readiness.
+
+𝗞𝗲𝘆 𝗦𝘁𝗲𝗽𝘀
+
+Compared 𝗦𝘁𝗮𝗻𝗱𝗮𝗿𝗱𝗦𝗰𝗮𝗹𝗲𝗿, 𝗠𝗶𝗻𝗠𝗮𝘅𝗦𝗰𝗮𝗹𝗲𝗿, and 𝗥𝗼𝗯𝘂𝘀𝘁𝗦𝗰𝗮𝗹𝗲𝗿 on the same dataset.
+
+Visualized 𝗵𝗼𝘄 𝗲𝗮𝗰𝗵 𝘀𝗰𝗮𝗹𝗲𝗿 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝘀 𝗱𝗮𝘁𝗮 differently.
+
+Evaluated 𝘄𝗵𝗶𝗰𝗵 𝘀𝗰𝗮𝗹𝗲𝗿 works best depending on data distribution and outliers.
+
+𝗢𝘂𝘁𝗰𝗼𝗺𝗲
+
+⚖️ 𝗦𝘁𝗮𝗻𝗱𝗮𝗿𝗱𝗦𝗰𝗮𝗹𝗲𝗿: Ideal for 𝗻𝗼𝗿𝗺𝗮𝗹𝗹𝘆 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗱𝗮𝘁𝗮 (centers around 0, scales by std).
+
+📉 𝗠𝗶𝗻𝗠𝗮𝘅𝗦𝗰𝗮𝗹𝗲𝗿: Perfect for 𝗻𝗲𝘂𝗿𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸𝘀 and 𝗯𝗼𝘂𝗻𝗱𝗲𝗱 𝗶𝗻𝗽𝘂𝘁𝘀 (𝟬–𝟭).
+
+🧱 𝗥𝗼𝗯𝘂𝘀𝘁𝗦𝗰𝗮𝗹𝗲𝗿: Best for 𝗼𝘂𝘁𝗹𝗶𝗲𝗿-𝗵𝗲𝗮𝘃𝘆 𝗱𝗮𝘁𝗮, uses 𝗺𝗲𝗱𝗶𝗮𝗻 and 𝗜𝗤𝗥.
+
+📘 Notebook: Day04/EDA02.ipynb
