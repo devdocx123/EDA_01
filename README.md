@@ -98,3 +98,28 @@ Evaluated 𝘄𝗵𝗶𝗰𝗵 𝘀𝗰𝗮𝗹𝗲𝗿 works best depending on 
 🧱 𝗥𝗼𝗯𝘂𝘀𝘁𝗦𝗰𝗮𝗹𝗲𝗿: Best for 𝗼𝘂𝘁𝗹𝗶𝗲𝗿-𝗵𝗲𝗮𝘃𝘆 𝗱𝗮𝘁𝗮, uses 𝗺𝗲𝗱𝗶𝗮𝗻 and 𝗜𝗤𝗥.
 
 📘 Notebook: Day04/EDA02.ipynb
+
+- ----
+
+𝗗𝗮𝘆 𝟱 — 𝗧𝗿𝗮𝗶𝗻-𝗧𝗲𝘀𝘁 𝗦𝗽𝗹𝗶𝘁 & 𝗠𝗼𝗱𝗲𝗹 𝗣𝗿𝗲𝗽𝗮𝗿𝗮𝘁𝗶𝗼𝗻
+
+In this phase, the focus was on preparing the final dataset for machine learning models.
+
+🧩 Key Steps:
+
+Completed all preprocessing (cleaning, encoding, scaling)
+
+Used train_test_split() from sklearn.model_selection to divide data into training (80%) and testing (20%) sets
+
+Verified data integrity, class balance, and shape consistency using visualization
+
+💡 Key Learnings:
+
+Proper splitting prevents overfitting and ensures accurate evaluation
+
+Apply transformations only on training data to avoid data leakage
+
+📂 Files Added:
+
+Day04/EDA02.ipynb
+
