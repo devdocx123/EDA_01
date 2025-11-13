@@ -123,3 +123,99 @@ Apply transformations only on training data to avoid data leakage
 
 Day04/EDA02.ipynb
 
+
+- ----
+
+𝗗𝗮𝘆 𝟲 — 𝗧𝘆𝗽𝗲𝘀 𝗼𝗳 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗠𝗼𝗱𝗲𝗹𝘀
+
+🧩 Covered:
+
+Supervised Learning – algorithms trained on labeled data
+
+Unsupervised Learning – algorithms explore unlabeled data
+
+Reinforcement Learning – learning via feedback and reward
+
+💡 Key Learnings:
+
+Each ML type serves a unique goal
+
+Model selection depends on data type and problem statement
+
+Laying this foundation simplifies future model choices
+
+
+
+- ----
+
+𝗗𝗮𝘆 𝟳 — 𝗟𝗶𝗻𝗲𝗮𝗿 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻 𝗶𝗻 𝗔𝗰𝘁𝗶𝗼𝗻
+
+In this phase, the focus was on exploring Linear Regression, one of the simplest yet powerful supervised learning algorithms.
+
+🧩 Key Steps:
+
+Split the dataset into training (80%) and testing (20%) sets using train_test_split()
+
+Trained a Linear Regression model with scikit-learn
+
+Evaluated model performance using R² Score and Mean Squared Error (MSE)
+
+Visualized Actual vs Predicted values to see the regression line fit
+
+💡 Key Learnings:
+
+Linear Regression can capture patterns and relationships between variables with minimal code
+
+Visualizing predictions helps understand model performance and data trends
+
+📂 Files Added:
+
+Day07/linearregd1.ipynb
+
+- ----
+
+🧠 Day 8 – Logistic Regression (ML Journey)
+
+Day 8 of ML Journey focused on Logistic Regression for classification.
+
+📘 Key Learnings
+
+Logistic Regression is for classification, not regression.
+
+Uses sigmoid function to map predictions to probabilities.
+
+Handles multi-class via One-vs-Rest (OvR).
+
+Simple, fast, and effective baseline model.
+
+🧩 Notebook Overview
+
+Load Digits Dataset (sklearn.datasets)
+
+Visualize sample digits (0–9)
+
+Split data (80/20 train/test)
+
+Train Logistic Regression
+
+Evaluate accuracy & visualize predictions
+
+Build confusion matrix heatmap
+
+📊 Results
+
+Accuracy: ~95%
+
+Shows common misclassifications (e.g., 3 vs 8)
+
+🧠 Takeaways
+
+Great for fast, interpretable classification
+
+Foundation for SVMs and Neural Networks
+
+Visualization aids deeper insight than accuracy alone
+
+🛠️ Libraries
+
+scikit-learn, numpy, matplotlib, seaborn
