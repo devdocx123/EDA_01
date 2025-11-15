@@ -219,3 +219,36 @@ Visualization aids deeper insight than accuracy alone
 🛠️ Libraries
 
 scikit-learn, numpy, matplotlib, seaborn
+
+
+- ----
+
+# 🧠 Day 09 – Support Vector Machines (SVM)
+
+This notebook covers the basics of **Support Vector Machines** using the **Iris dataset**.
+
+## 🔍 What is SVM?
+SVM is a classification algorithm that finds the best boundary (hyperplane) that separates different classes with the **maximum margin**.
+
+## 💡 Why We Use It
+- Works well for both linear and non-linear data  
+- Uses kernels to handle complex patterns  
+- Robust and performs well on small to medium datasets  
+
+## ⭐ Key Aspects
+- Support Vectors  
+- Maximum Margin  
+- Kernel Trick (linear, RBF, polynomial)  
+
+## 📘 What I Did
+- Loaded the **Iris dataset**
+- Split into train/test sets  
+- Trained SVM models with different kernels  
+- Checked accuracy  
+- Added a few visualizations of predictions and boundaries  
+
+## 📎 Notebook & Code
+🔗 *GitHub Link Placeholder*
+
+
+- ----
