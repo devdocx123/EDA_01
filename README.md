@@ -248,7 +248,7 @@ SVM is a classification algorithm that finds the best boundary (hyperplane) that
 - Added a few visualizations of predictions and boundaries  
 
 ## 📎 Notebook & Code
-🔗 *GitHub Link Placeholder*
+🔗 (https://github.com/devdocx123/EDA_01)
 
 
 - ----
