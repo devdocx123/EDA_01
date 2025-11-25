@@ -252,3 +252,22 @@ SVM is a classification algorithm that finds the best boundary (hyperplane) that
 
 
 - ----
+
+# ML Journey – Day 10 to Day 13
+
+## Algorithms Covered
+- Decision Trees (Titanic dataset)
+- Random Forest Classifier (Digits dataset)
+- Evaluation Metrics (Accuracy, Confusion Matrix)
+- Feature Importance & Model Experiments
+
+## What’s inside:
+- Cleaned datasets
+- Model training + testing
+- Comparisons between DT & RF
+- Visualizations and accuracy results
+
+## Upcoming Next:
+➡️ Unsupervised Algorithms  
+
+
