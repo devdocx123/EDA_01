@@ -271,3 +271,64 @@ SVM is a classification algorithm that finds the best boundary (hyperplane) that
 ➡️ Unsupervised Algorithms  
 
 
+- ----
+
+📘 ML Journey — Days 14 to 19
+
+This folder contains my hands-on implementations of Gradient Descent, L1/L2 Regularization, and One-Hot Encoding as part of my Machine Learning learning path.
+
+🔥 Contents
+✅ Gradient Descent (Day 14–15)
+
+Implemented linear regression training from scratch
+
+Manual cost calculation & gradient updates
+
+10,000-iteration optimization loop
+
+Built using NumPy only
+
+✅ L1 & L2 Regularization (Day 16–17)
+
+Compared Lasso (L1) vs Ridge (L2)
+
+Observed coefficient shrinking
+
+Demonstrated how regularization reduces overfitting
+
+✅ One-Hot Encoding (Day 18–19)
+
+Converted categorical features to numerical vectors
+
+Prepared datasets for ML models
+
+Showed encoding workflow using pandas
+
+📂 Files
+
+gradient_descent_d3.py
+
+L1_L2_Regularization.ipynb
+
+one_hot_encoded_d4.ipynb
+
+🚀 Purpose
+
+These exercises helped me build strong intuition for:
+
+How optimization works under the hood
+
+How regularization stabilizes models
+
+How to preprocess categorical features properly
+
+- ----
+
+
+
+- ----
+
+
+
+
+- ----
