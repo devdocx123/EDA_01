@@ -324,7 +324,53 @@ How to preprocess categorical features properly
 
 - ----
 
+📅 Day 20 – 24: Model Evaluation, Clustering & Classification
+⚡ Day 20 & 21 – K-Fold Cross-Validation
+Objective: Ensure model reliability and stability using robust evaluation techniques on the Digits dataset.
 
+Key Steps:
+
+Compared initial scores of Supervised LogisticRegression, Supervised RandomForestClassifier, and Supervised SVC.
+
+Implemented and calculated scores using K-Fold Cross-Validation.
+
+Generated a confusion_matrix for final evaluation.
+
+Files:
+
+K_fold_cross_validation.ipynb
+
+
+⚡ Day 20 & 21 – K-Fold Cross-Validation
+Objective: Ensure model reliability and stability using robust evaluation techniques on the Digits dataset.
+
+Key Steps:
+
+Compared initial scores of Supervised LogisticRegression, Supervised RandomForestClassifier, and Supervised SVC.
+
+Implemented and calculated scores using K-Fold Cross-Validation.
+
+Generated a confusion_matrix for final evaluation.
+
+Files:
+
+K_fold_cross_validation.ipynb
+
+
+🧠 Day 23 & 24 – Naive Bayes
+Objective: Implement a fast, probabilistic classifier on the Wine dataset.
+
+Key Steps:
+
+Trained a Supervised GaussianNB model.
+
+Scored the model (achieving 1.0 accuracy).
+
+Evaluated performance using a confusion_matrix.
+
+Files:
+
+Naive_Bayes.ipynb
 
 - ----
 
